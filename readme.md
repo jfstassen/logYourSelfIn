@@ -8,9 +8,9 @@
 
 ## Goals
 
-- [x] Shared database with a database manager (remotemysql)
-- [x] Registration form
-- [x] Log In form
+- [ ] Shared database with a database manager (?)
+- [x] Registration form (register.php)
+- [x] Log In form (yes, index.php)
 - [x] Log in / log out feature (index.php / logoff.php)
 - [x] Profile page (profil.php)
 - [x] Edit feature  (update.php)
