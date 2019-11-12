@@ -1,0 +1,37 @@
+version: '3'
+services:
+    php-apache:
+        build:
+          context: "."
+        container_name: logyourselfin-php-apache
+        ports:
+            - 80:80
+        volumes:
+            - ./DocumentRoot:/var/www/html
+        links:
+            - 'mariadb'
+    mariadb:
+        image: mariadb:latest
+        container_name: logyourselfin-mariadb
+        volumes:
+            - mariadb:/var/lib/mysql
+        environment:
+            TZ: "Europe/Brussels"
+            MYSQL_ALLOW_EMPTY_PASSWORD: "no"
+            MYSQL_ROOT_PASSWORD: "root"
+            MYSQL_USER: "admin"
+            MYSQL_PASSWORD: "password"
+            MYSQL_DATABASE: "database"
+    phpmyadmin:
+        image: phpmyadmin/phpmyadmin
+        container_name: logyourselfin-phpmyadmin
+        links:
+            - mariadb
+        ports:
+            - 8081:80
+        environment:
+            PMA_USER: "root"
+            PMA_PASSWORD: "root"
+            PMA_HOST: mariadb
+volumes:
+    mariadb:

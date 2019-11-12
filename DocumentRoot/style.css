@@ -1,0 +1,204 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css";
+
+
+.update-form{
+    width: 550px;;
+}
+.update-form .mb-0{
+    margin-bottom: 0;
+}
+
+#try{
+    display: flex;
+    justify-content: center;
+}
+#try div{
+    width: 100%;
+}
+#labelAddress{
+    align-self: center;
+}
+.group-btn-edit-delete{
+    display: flex;
+    justify-content: space-between;
+}
+.register{
+    align-self: center;
+    width: 300px;
+}
+.register > label:last-of-type{
+    display:none;
+}
+.register > label:last-of-type + input{
+    display: none;
+}
+
+.slide-left{
+    animation: slide-left 2s normal;
+}
+.slide-bottom{
+    animation: slide-bottom 2s normal;
+}
+@keyframes slide-bottom{
+    0%{
+        transform: translateY();
+    }
+    100%{
+        opacity: 0;
+        transform: translateY(100%);
+    }
+}
+@keyframes slide-left{
+    0%{
+        transform: translateX();
+    }
+    100%{
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+}
+.alert-deleted{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    border-radius: 10px;
+    background-image: url("https://media1.tenor.com/images/681ed64d14c49c1d1870b975db6d57f1/tenor.gif?itemid=11847535");
+    width: 480px;
+    height: 200px;
+}
+.alert-deleted ion-icon{
+    position: absolute;
+    border-radius: 10px;
+    top: 0px;
+    right: 0px;
+    width: 30px;
+    height: 30px;
+    fill: white;
+}
+.alert-deleted p{
+    position: absolute;
+    border-radius: 10px;
+    bottom: 0px;
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 1.3em;
+}
+.alert-loggedOff{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    border-radius: 10px;
+    background-image: url("https://media1.tenor.com/images/0f42d2df71bb3997c0157b60d435e30f/tenor.gif");
+    width: 480px;
+    height: 200px;
+}
+.alert-loggedOff ion-icon{
+    position: absolute;
+    border-radius: 10px;
+    top: 0px;
+    right: 0px;
+    width: 30px;
+    height: 30px;
+    fill: white;
+}
+.alert-loggedOff p{
+    position: absolute;
+    border-radius: 10px;
+    bottom: 0px;
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 1.3em;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: 10px auto;
+}
+.main .login{
+    margin: 0 auto;
+    width: 300px;
+}
+
+.main img{
+    border-radius: 10px;
+}
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans");
+
+body {
+  background-color: antiquewhite;
+}
+.half-circle-shadow{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.7);
+}
+.card {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.card-header {
+  overflow: hidden;
+  width: 100%;
+  max-height: 200px;
+  border-radius: 100%;
+}
+
+.main .card img{
+    z-index: 2;
+    object-fit: cover;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+.main .card li{
+    display: flex;
+    align-items: center;
+}
+.main .card li span{
+padding-left: 10px;
+}
+
+.card-content {
+    z-index: 1;
+    background-color: #f4f4f4;
+    width: 500px;
+    margin: 153px 0;
+    margin-bottom: 0;
+    box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.7);
+    border-radius: 3px !important;
+}
+.card ion-icon{
+    width: 40px;
+    height: 40px;
+}
+
+.card-content h3 {
+  font-size: 25px;
+  margin-bottom: 0;
+  color: #303F9F;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.card-content h4 {
+  font-size: 14px;
+  margin-top: 0;
+  color: #FF5252;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.card-content p {
+  color: #727272;
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+  
+}
