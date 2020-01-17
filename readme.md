@@ -1,6 +1,6 @@
-# logYourSelfIn
+# Project logYourSelfIn
 
-### [Project's URL]()
+> Tasked solo project made in a week at BECODE, 2019.
 
 ### [Instructions](https://github.com/becodeorg/LIE-Jepsen-2.14/blob/master/02-the-hill/06-challenges-php-sql/login.adoc)
 
