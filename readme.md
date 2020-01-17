@@ -27,3 +27,14 @@
 - Logout & account deletion related notification
 - WSL 2
 - Plenty of GIF. 
+
+
+## Screen
+![Image](https://i.imgur.com/zokMT1y.png)
+![Image](https://i.imgur.com/sPXZrWN.png)
+![Image](https://i.imgur.com/3WJv9zJ.png)
+![Image](https://i.imgur.com/MyKdsxY.png)
+![Image](https://i.imgur.com/VNlE3xr.png)
+
+
+
